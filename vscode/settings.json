@@ -1,0 +1,32 @@
+// .vscode/settings.json
+{
+    "jest.pathToJest": "./node_modules/.bin/jest",
+    "jest.jestCommandLine": "./node_modules/.bin/jest",
+    "jest.projectFile": "./jest.config.js",
+    "jest.rootPath": "./",
+    "jest.debugMode": "off",
+    "jest.runAllTestsFirst": false,
+    "jest.runTestsByPath": true,
+    "jest.runTestsByPathPattern": true,
+    "jest.testMatch": [
+        "**/*.test.ts"
+    ],
+    "jest.unittests": "vscode-jest-tests",
+    "jest.noUnitTests": "vscode-jest-no-unit-tests",
+    "jest.autoEnable": true,
+    "jest.updateSnapshot": "new",
+    "jest.config": {},
+    "jest.codeLens": {
+        "enable": true
+    },
+    "jest.debugCodeLens": {
+        "enable": true
+    },
+    "jest.showCoverageOnLoad": false,
+    "jest.hideCoverageOnLoad": false,
+    "jest.coverageFormatter": "Default",
+    "jest.codeLens.showWhen": "always",
+    "jest.codeLens.showTotalTests": true,
+    "jest.codeLens.showInlineErrors": true,
+    "jest.codeLens.showInlineWarnings": true
+}
