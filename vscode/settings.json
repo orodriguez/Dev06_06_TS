@@ -9,9 +9,8 @@
     "jest.runTestsByPath": true,
     "jest.runTestsByPathPattern": true,
     "jest.testMatch": [
-        "**/*.test.ts"
+        "**/*.tests.ts"
     ],
-    "jest.unittests": "vscode-jest-tests",
     "jest.noUnitTests": "vscode-jest-no-unit-tests",
     "jest.autoEnable": true,
     "jest.updateSnapshot": "new",
@@ -28,5 +27,11 @@
     "jest.codeLens.showWhen": "always",
     "jest.codeLens.showTotalTests": true,
     "jest.codeLens.showInlineErrors": true,
-    "jest.codeLens.showInlineWarnings": true
+    "jest.codeLens.showInlineWarnings": true,
+    "jest.autoRun": {
+        "watch": true,
+        "onStartup": [
+            "all-tests"
+        ]
+    }
 }
